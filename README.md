@@ -9,19 +9,22 @@ Diseño relacional avanzado del módulo transaccional de la plataforma e-commerc
 ## Estructura
 
 ```
-Ecommify_Database_Design/
-├── architecture/
+SABANA.ECOMMIFY.DATABASE.DESIGN/
+├── 01_architecture/
 │   ├── 01_er_conceptual.png
 │   ├── 02_logical_schema.png
 │   └── 03_reference_architecture.png
-├── scripts/
+├── 02_objects/
+│   └── ecommify_er.drawio        # Archivo fuente editable con 3 pestañas:
+│                                 #   · Tab 1: ER Conceptual
+│                                 #   · Tab 2: Esquema Lógico
+│                                 #   · Tab 3: Arquitectura de Referencia
+├── 03_scripts/
 │   ├── 01_ddl_schema.sql
 │   ├── 02_indexes.sql
 │   ├── 03_seed_data.sql
 │   └── 04_queries_demo.sql
-└── docs/
-    ├── Documento_Tecnico_Diseno.pdf
-    └── Presentacion_Ejecutiva.pdf
+└── README.md
 ```
 
 ---
@@ -59,10 +62,8 @@ Ecommify_Database_Design/
 ## Ejecución
 
 ```bash
-psql -U postgres -d ecommify -f scripts/ddl/01_ddl_schema.sql
-psql -U postgres -d ecommify -f scripts/indexes/02_indexes.sql
-psql -U postgres -d ecommify -f scripts/data/03_seed_data.sql
-psql -U postgres -d ecommify -f scripts/queries/04_queries_demo.sql
+psql -U postgres -d ecommify -f 03_scripts/01_ddl_schema.sql
+psql -U postgres -d ecommify -f 03_scripts/02_indexes.sql
+psql -U postgres -d ecommify -f 03_scripts/03_seed_data.sql
+psql -U postgres -d ecommify -f 03_scripts/04_queries_demo.sql
 ```
-
-
