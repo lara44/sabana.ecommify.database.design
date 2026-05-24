@@ -15,10 +15,10 @@ Ecommify_Database_Design/
 │   ├── 02_logical_schema.png
 │   └── 03_reference_architecture.png
 ├── scripts/
-│   ├── ddl/        → 01_ddl_schema.sql
-│   ├── indexes/    → 02_indexes.sql
-│   ├── data/       → 03_seed_data.sql
-│   └── queries/    → 04_queries_demo.sql
+│   ├── 01_ddl_schema.sql
+│   ├── 02_indexes.sql
+│   ├── 03_seed_data.sql
+│   └── 04_queries_demo.sql
 └── docs/
     ├── Documento_Tecnico_Diseno.pdf
     └── Presentacion_Ejecutiva.pdf
