@@ -1,0 +1,15 @@
+{
+    "_id": "uuid",
+    "review_id": "uuid",
+    "order_id": "uuid-ref-postgresql",
+    "product_id": "uuid-ref-postgresql",
+    "score": 5,
+    "comment": {
+      "title": "Excelente",
+      "message": "Llegó perfecto"
+    },
+    "metadata": {
+      "creation_date": "2018-03-15T14:22:00Z",
+      "synced_at": "2026-05-18T02:00:00Z"
+    }
+  }

@@ -1,0 +1,15 @@
+{
+    "_id": "uuid-ref-postgresql",
+    "product_id": "uuid-compartido",
+    "name": "Notebook Pro 15",
+    "category": "informatica_acessorios",
+    "images": ["url1.jpg", "url2.jpg"],
+    "attributes": {
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "processor": "Intel Core i7"
+    },
+    "description": "Texto libre",
+    "created_at": "2026-01-15T10:30:00Z",
+    "updated_at": "2026-03-20T14:22:00Z"
+  }
