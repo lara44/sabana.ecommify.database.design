@@ -147,7 +147,7 @@ Se ejecutaron nuevamente las consultas críticas tras la implementación de índ
 
 ---
 
-## Fase 3 — Pendiente
+## Fase 3 — Completada (Unidad 6)
 **Entregable evaluativo 3 · Unidad siguiente**
 
 ---
